@@ -1,15 +1,13 @@
 {
-  "name": "subamericarelay",
+  "name": "subamerica-poll-server",
   "version": "1.0.0",
-  "main": "relay.js",
+  "description": "Polling server for Subamerica Roku overlay",
+  "main": "poll-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node poll-server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "redis": "^5.5.6"
+    "express": "^4.18.2",
+    "redis": "^4.6.5"
   }
 }
